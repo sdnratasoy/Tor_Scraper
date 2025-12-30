@@ -1,0 +1,38 @@
+# Çıktı dosyaları
+output/
+*.html
+*.png
+scan_report.log
+targets.yaml
+
+# Go build dosyaları
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+torscraper
+torscraper.exe
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
